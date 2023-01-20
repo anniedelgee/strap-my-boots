@@ -8,13 +8,20 @@
     margin-top: 20px;
     padding: 0;
     font-family:'Courier New', Courier, monospace;
-    color:aqua;
+    color:#00ff00;
     line-height: 1.5;
+    background-color: black;
   }
 
-.navbar-nav {
+.nav-item {
     margin-left: auto;
-    margin-right: 0 !important;
+    margin-right: 0 !important; 
+    text-decoration: none;
+    color:#ff0000;
+    background-color: black;
+}
+.nav-item :hover{
+    color: #00ff00;
 }
 
 .navbar img{
@@ -23,5 +30,72 @@
 
 .jumbotron {
     background-color: black;
-    background-image: url(../images/Twees--02.png);
+    background-image: url(../images/Twees--03.png);
+    text-align: center;
+}
+.jumbotron .btn btn-lg{
+    justify-items: center;
+}
+.btn{
+    color:#ff0000;
+    background-color: none;
+    border-color: #00ff00;
+}
+.btn :hover {
+    background-color: rgb(255, 0, 0);
+}
+.cardContainer{
+    padding:20px;
+}
+.card{
+    border-color: #00ff00;
+}
+#anthropomorphisms{
+    border:#ff0000;
+    border-width: 5px;
+}
+.description{
+    margin: 20px;
+}
+.detailzContainer{
+    width:100%;
+    display:flex;
+    margin: 40px;
+    padding:10px;
+    text-align: center;
+}
+    
+.skills{
+    justify-content: center;
+    color:#ff0000;
+    border:#ff0000;
+    width: 50%;
+}    
+    
+
+.detailzContainer .skills h1{
+    font-size: xx-large;
+    font-style: bold;
+}
+.detailzContainer .skills h2{
+    font-size: large;
+    font-style: italic;
+}
+.detailzContainer.skills p{
+    font-size: small;
+    font-style: bold;
+}
+.detailzContainer .links h1{
+    font-weight: 900;
+    margin-right: auto;
+}
+.detailzContainer .links{
+    width:50%;
+
+}
+.footer{
+    height: 70px;
+    width:100%;
+    color:white;
+    text-align: right;
 }

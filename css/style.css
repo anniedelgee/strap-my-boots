@@ -20,6 +20,9 @@
     color:#ff0000;
     background-color: black;
 }
+.navbar-nav li{
+    color:#ff0000;
+}
 .nav-item :hover{
     color: #00ff00;
 }

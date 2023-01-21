@@ -13,22 +13,11 @@
     background-color: black;
   }
 
-.nav-item {
-    margin-left: auto;
-    margin-right: 0 !important; 
-    text-decoration: none;
-    color:#ff0000;
-    background-color: black;
-}
-.navbar-nav li{
-    color:#ff0000;
-}
-.nav-item :hover{
-    color: #00ff00;
-}
-
 .navbar img{
     max-height: 40px;
+}
+.nav-link a{ 
+    color:#00ff00
 }
 
 .jumbotron {
@@ -45,11 +34,11 @@
 }
 .btn{
     color:#ff0000;
-    background-color: none;
+    background-color: black;
     border-color: #00ff00;
 }
-.btn :hover {
-    box-shadow:10px 10px white;
+.btn:hover{
+    box-shadow: 5px 5px 5px whitesmoke;
 }
 .cardContainer{
     padding:20px;
@@ -95,10 +84,16 @@
 .detailzContainer .links h1{
     font-weight: 900;
     margin-right: auto;
+    color: #00ff00;
 }
 .detailzContainer .links{
     width:50%;
-
+}
+.detailzContainer a{
+    text-decoration:none;
+}
+.links:hover{
+    text-shadow: 5px 5px 5px #ff0000;
 }
 .footer{
     height: 70px;
